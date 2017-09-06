@@ -13,6 +13,9 @@ Fin::Powermomentum::Powermomentum(const vector<double> &input, const int &period
 	this->powermomentum = (input[period]) - input[0];
 }
 
+Fin::MovingAverage::~Powermomentum(){
+}
+
 double Fin::Powermomentum::getPowermomentum(){
 	return powermomentum;
 }

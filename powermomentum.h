@@ -25,7 +25,11 @@ class Powermomentum{
 		@param vector<double> &input: the input sequence
 		@param int &period: the window period
 		@return none*/
-		Powermomentum(const vector<double> &input, const int &period);
+		explicit Powermomentum(const vector<double> &input, const int &period);
+		/**
+		The destructor
+		*/
+		virtual ~Powermomentun();
 		/**
 		Get the value of powermomentum
 		@return Returns the value of the powermomentum
